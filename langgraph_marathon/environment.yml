@@ -1,0 +1,7 @@
+name: langgraph-marathon
+dependencies:
+  - python=3.12
+  - pip
+  - pip:
+      - "pydantic[email]>=2.0,<3.0"
+      - "ipykernel>=6.0"
