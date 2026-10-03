@@ -1,0 +1,4 @@
+# keep only the files you actually want ignored
+venv/
+.env
+__pycache__/
