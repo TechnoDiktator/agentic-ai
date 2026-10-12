@@ -10,7 +10,7 @@ from langchain.agents import (
     create_react_agent,
     AgentExecutor
 )
-from langchain import hub
+from langsmith import Client
 
 from langchain_community.tools.tavily_search import TavilySearchResults
 
@@ -88,7 +88,7 @@ llm = ChatOpenAI(
 # PROMPT
 # ==========================================
 
-prompt = hub.pull("hwchase17/react")
+prompt = Client().pull_prompt("hwchase17/react")
 
 # ==========================================
 # TOOLS
