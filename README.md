@@ -1,6 +1,6 @@
-# Agentic AI Playground
+# Agentic AI Miniproject
 
-A learning repository for building AI agents and workflows with LangChain, LangGraph, and Python.
+
 
 The featured project is a multi-agent research assistant that searches the web, reads a relevant source, drafts a research report, and critiques the result. It includes both a Streamlit interface and a command-line entry point.
 
