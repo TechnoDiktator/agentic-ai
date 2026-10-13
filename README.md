@@ -128,7 +128,7 @@ python main.py
 │       ├── pipeline/                  # Orchestrates the research stages
 │       └── tools/                     # Tavily search and page extraction tools
 ├── langchain_agent_practice/          # LangChain agent examples
-├── langgraph_marathon/                # LangGraph and LCEL notebooks and demos
+├── langchain_marathon/                # LangGraph and LCEL notebooks and demos
 └── asyncio_practice/                  # Python async practice
 ```
 
