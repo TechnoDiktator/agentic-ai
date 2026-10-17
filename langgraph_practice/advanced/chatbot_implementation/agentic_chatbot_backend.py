@@ -7,9 +7,10 @@ from langgraph.checkpoint.memory import MemorySaver
 from langgraph.graph.message import add_messages
 
 
+
 load_dotenv()
 
-llm = ChatOpenAI()
+llm = ChatOpenAI(streaming=True)
 
 
 class ChatState(TypedDict):
